@@ -19,7 +19,7 @@ TELEGRAM_BOT_TOKEN = os.environ.get('TELEGRAM_BOT_TOKEN')
 ADMIN_CHAT_ID = int(os.environ.get('ADMIN_CHAT_ID', 7843284032))
 
 #আর ডিপ্লয় করার পর যে নতুন ইউআরএল টা তুমি পাবে ওইটা এইখানে সেট করবে
-RENDER_URL = os.environ.get('RENDER_URL', "https://free-cspb.onrender.com")
+RENDER_URL = os.environ.get('RENDER_URL', "https://free-9fv4.onrender.com")
 if not TELEGRAM_BOT_TOKEN:
     print("ERROR: TELEGRAM_BOT_TOKEN not set!")
     exit(1)
